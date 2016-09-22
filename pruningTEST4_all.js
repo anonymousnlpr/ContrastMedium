@@ -2,40 +2,40 @@ $(function(){ // on dom ready
 startLoad();
 var graph4 = {
 nodes: [
-{ data: { id: 'R', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:9 , y:1} }
-,{ data: { id: 'l1', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:8} }
-,{ data: { id: 'g1', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:4} }
-,{ data: { id: 'l2', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:2 , y:4} }
-,{ data: { id: 'g2', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:8} }
-,{ data: { id: 'l3', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:3 , y:7} }
-,{ data: { id: 'g3', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:9 , y:7} }
-,{ data: { id: 'l4', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:3} }
-,{ data: { id: 'g4', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:0 , y:0} }
-,{ data: { id: 'l5', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:1 , y:6} }
-,{ data: { id: 'g5', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:3} }
-,{ data: { id: 'l6', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:3 , y:0} }
+{ data: { id: 'R', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:0 , y:8} }
+,{ data: { id: 'l1', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:2 , y:3} }
+,{ data: { id: 'g1', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:3} }
+,{ data: { id: 'l2', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:0} }
+,{ data: { id: 'g2', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:3 , y:9} }
+,{ data: { id: 'l3', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:9} }
+,{ data: { id: 'g3', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:6} }
+,{ data: { id: 'l4', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:4} }
+,{ data: { id: 'g4', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:7} }
+,{ data: { id: 'l5', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:9} }
+,{ data: { id: 'g5', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:0} }
+,{ data: { id: 'l6', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:9 , y:9} }
 ,{ data: { id: 'g6', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:9} }
-,{ data: { id: 'l7', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:8} }
-,{ data: { id: 'g7', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:5} }
-,{ data: { id: 'l8', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:0 , y:8} }
-,{ data: { id: 'g8', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:3 , y:1} }
-,{ data: { id: 'N_R', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:0 , y:9} }
-,{ data: { id: 'N_l1', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:6} }
-,{ data: { id: 'N_g1', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:9 , y:8} }
+,{ data: { id: 'l7', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:9} }
+,{ data: { id: 'g7', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:9} }
+,{ data: { id: 'l8', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:2} }
+,{ data: { id: 'g8', parent: 'KB', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:7} }
+,{ data: { id: 'N_R', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:3 , y:3} }
+,{ data: { id: 'N_l1', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:1} }
+,{ data: { id: 'N_g1', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:3} }
 ,{ data: { id: 'N_l2', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:0 , y:2} }
-,{ data: { id: 'N_g2', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:2 , y:5} }
-,{ data: { id: 'N_l3', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:8} }
-,{ data: { id: 'N_g3', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:3} }
-,{ data: { id: 'N_l4', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:9 , y:4} }
-,{ data: { id: 'N_g4', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:7} }
-,{ data: { id: 'N_l5', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:4} }
-,{ data: { id: 'N_g5', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:1} }
-,{ data: { id: 'N_l6', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:3} }
-,{ data: { id: 'N_g6', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:9} }
-,{ data: { id: 'N_l7', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:7} }
-,{ data: { id: 'N_g7', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:2 , y:3} }
-,{ data: { id: 'N_l8', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:4} }
-,{ data: { id: 'N_g8', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:2 , y:0} }
+,{ data: { id: 'N_g2', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:8} }
+,{ data: { id: 'N_l3', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:6 , y:9} }
+,{ data: { id: 'N_g3', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:9} }
+,{ data: { id: 'N_l4', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:2} }
+,{ data: { id: 'N_g4', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:9} }
+,{ data: { id: 'N_l5', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:3 , y:1} }
+,{ data: { id: 'N_g5', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:1} }
+,{ data: { id: 'N_l6', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:5 , y:2} }
+,{ data: { id: 'N_g6', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:0} }
+,{ data: { id: 'N_l7', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:8 , y:4} }
+,{ data: { id: 'N_g7', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:4 , y:3} }
+,{ data: { id: 'N_l8', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:0 , y:3} }
+,{ data: { id: 'N_g8', parent: 'PCZ', bc: '#0000FF', bw: '0', color:'#0000FF'}, position:{ x:7 , y:2} }
 ,{ data: { id: 'KB', color: '#ffdd99', bw: '0', bc:'#111111'}, position:{ x:0 , y:0} }
 ,{ data: { id: 'PCZ', color: '#66ff99', bw: '0', bc:'#111111'}, position:{ x:0 , y:0} }
 
