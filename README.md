@@ -22,3 +22,7 @@ To start experimenting with ContrastMedium:
 #<b>Publications</b>
 
 Stefano Faralli, Alexander Panchenko, Chris Biemann and Simone Paolo Ponzetto (2017) <a href="https://ub-madoc.bib.uni-mannheim.de/42008/1/E17-1056.pdf">The ContrastMedium algorithm : taxonomy induction from noisy knowledge graphs with just a few links.</a> 15th Conference of the European Chapter of the Association for Computational Linguistics : proceedings of conference, volume 1: Long Papers; 590-600. Association for Computational Linguistics. <a href="http://web.informatik.uni-mannheim.de/contrastmedium/bibs/Farallietal2017a.bib" >bib</a>
+
+#<b>License</b>
+
+This software licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License: https://creativecommons.org/licenses/by/4.0/.
